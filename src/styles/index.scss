@@ -1,0 +1,39 @@
+// @use 'reset';
+@use 'vars';
+
+@import '~fomantic-ui/dist/semantic.css';
+
+body {
+  font-family: sans-serif;
+  background-color: #bec3c6;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app{
+  background-color: #edf0f1;
+  width: 50em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 1rem; 
+  margin: 2rem;
+}
+
+.input{
+  width: 100%;
+}
+
+.logo{
+  width: 15%;
+  align-self: center;
+}
+
+.item{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
