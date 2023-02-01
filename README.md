@@ -13,5 +13,6 @@ J'ai aussi utilisé le Router de React afin de créer une navigation, et un acc�
 ReactJS
 
 SCSS: Sass
+Semantic UI
 
 babel & webpack
