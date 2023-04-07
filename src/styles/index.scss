@@ -4,23 +4,29 @@
 @import '~fomantic-ui/dist/semantic.css';
 
 body {
-  font-family: sans-serif;
+  // font-family: sans-serif;
   background-color: #bec3c6;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  // flex-wrap: wrap;
+  // flex-direction: row;
   justify-content: center;
 }
 
 .app{
   background-color: #edf0f1;
-  width: 50em;
+  width: 50rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center; 
+  // justify-content: center; 
   padding: 1rem; 
   margin: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+  .app {
+    width: auto;
+  }
 }
 
 .input{
@@ -28,7 +34,7 @@ body {
 }
 
 .logo{
-  width: 15%;
+  width: 40%;
   align-self: center;
 }
 
